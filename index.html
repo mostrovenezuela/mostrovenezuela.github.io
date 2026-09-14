@@ -312,10 +312,10 @@
     </a>
     <nav aria-label="Main navigation">
       <ul>
-        <li><a href="#connect">Connect</a></li>
-        <li><a href="#clients">Clients</a></li>
-        <li><a href="#coordinator">Coordinator</a></li>
-        <li><a href="#community">Community</a></li>
+        <li><a href="#connect">Conecta</a></li>
+        <li><a href="#clients">Clientes</a></li>
+        <li><a href="#coordinator">Coordinador</a></li>
+        <li><a href="#community">Comunidad</a></li>
         <li><a href="https://mostro.network/" target="_blank" rel="noopener noreferrer">Mostro ↗</a></li>
       </ul>
     </nav>
@@ -327,12 +327,12 @@
   <div class="wrap hero">
     <div>
       <div class="eyebrow">Comunidad Mostro Venezuela</div>
-      <h1>Bitcoin P2P.<br><span>No KYC.</span></h1>
+      <h1>Bitcoin P2P.<br><span>Sin KYC.</span></h1>
       <p class="lead">
         Mostro Venezuela es una comunidad donde se intercambia Bitcoin P2P sin KYC a traves de la red Lightning.
       </p>
       <p class="sublead">
-        Intercambia Bitcoin directamente son otras personas a traves de Mostro y la red Lightning.
+        Intercambia Bitcoin directamente con otras personas a traves de Mostro y la red Lightning.
       </p>
 
       <div class="actions">
@@ -357,23 +357,23 @@
 
   <section>
     <div class="wrap">
-      <div class="eyebrow">What this is</div>
-      <h2>Protocol, coordinator, community.</h2>
+      <div class="eyebrow">Que es esto</div>
+      <h2>Protocolo, coordinador, comunidad.</h2>
       <div class="three">
         <article class="card">
           <div class="label">Mostro</div>
-          <h3>The protocol</h3>
-          <p>Open-source peer-to-peer Bitcoin trading over Nostr, using Lightning hold invoices to coordinate trades.</p>
+          <h3>El protocolo</h3>
+          <p>Intercambio Bitcoin P2P de codigo abierto a traves de Nostr, usando hold invoices en Lightning para coordinar el intercambio.</p>
         </article>
         <article class="card">
           <div class="label">Mostro Venezuela</div>
-          <h3>The community</h3>
-          <p>A European community for users who want to learn, trade, help each other and build reputation through real P2P use.</p>
+          <h3>La comunidad</h3>
+          <p>Comunidad basada en Venezuela, para usuarios que quieren aprender, intercambiar, ayudarse unos a otros y construir reputacion a medida que intercambian.</p>
         </article>
         <article class="card">
-          <div class="label">Coordinator</div>
-          <h3>The access point</h3>
-          <p>Compatible Mostro clients connect using the coordinator's Nostr public key and public relays.</p>
+          <div class="label">Coordinador</div>
+          <h3>El punto de acceso</h3>
+          <p>Los clientes Mostro compatibles se conectan al coordinador usando la clave publica y relays de Nostr publicos.</p>
         </article>
       </div>
     </div>
@@ -381,50 +381,45 @@
 
   <section id="connect">
     <div class="wrap">
-      <div class="eyebrow">Connect</div>
-      <h2>Use the coordinator identity.</h2>
-      <p class="lead">Always verify the coordinator by its public key, not by a display name alone.</p>
+      <div class="eyebrow">Conecta</div>
+      <h2>Usa la identidad del coordinador.</h2>
+      <p class="lead">Siempre verifica la identidad del coordinador por su clave publica, y no solo por el nombre que muestre.</p>
 
       <div class="card">
-        <div class="label">MostroEuropa coordinator NPUB</div>
-        <div id="npub" class="npub">npub1mg36x8t42usn32upfxg35ppzfqf2xj76v7w2hf7trqj0ma79jtkqrj3q9m</div>
+        <div class="label">Clave publica de Mostro Venezuela</div>
+        <div id="npub" class="npub">000009ee1e4b1dc7add19ab30e4ef854d7b562e208b62686fd9002b50b24dabb</div>
         <div class="copy-row">
-          <button class="copy" onclick="copyNpub()">Copy npub</button>
+          <button class="copy" onclick="copyNpub()">Copiar clave</button>
           <span id="copy-status" aria-live="polite"></span>
         </div>
 
         <div class="facts">
-          <div class="fact"><span class="small">Mostro</span><strong>0.18.5</strong></div>
-          <div class="fact"><span class="small">Protocol</span><strong>2 / NIP-44</strong></div>
+          <div class="fact"><span class="small">Mostro</span><strong>0.18.7</strong></div>
+          <div class="fact"><span class="small">Protocolo</span><strong>2 / NIP-44</strong></div>
           <div class="fact"><span class="small">PoW</span><strong>0</strong></div>
-          <div class="fact"><span class="small">Bond</span><strong>Enabled</strong></div>
+          <div class="fact"><span class="small">Fianza</span><strong>Desactivada</strong></div>
         </div>
       </div>
 
       <div class="two" style="margin-top:18px">
         <article class="card">
-          <div class="label">Public relays</div>
-          <h3>Recommended for client configuration</h3>
+          <div class="label">Relays publicos</div>
+          <h3>Recomendados en la configuracion del cliente</h3>
           <div class="relay-list">
             <div class="relay">wss://relay.mostro.network</div>
             <div class="relay">wss://mostro-p2p.tech</div>
-            <div class="relay">wss://relay.shadowbip.com</div>
+            <div class="relay">wss://nos.lol</div>
           </div>
           <p class="small" style="margin-top:14px">
-            These are public relays used by the coordinator and are sufficient for the examples below.
+            Estos son los relays usados por Mostro Venezuela.
           </p>
         </article>
 
         <article class="card">
-          <div class="label">Accepted fiat</div>
-          <h3>European multi-fiat</h3>
+          <div class="label">Monedas soportadas</div>
+          <h3>Multiples monedas</h3>
           <div class="currency-list">
-            <span class="currency">EUR</span><span class="currency">GBP</span><span class="currency">CHF</span>
-            <span class="currency">PLN</span><span class="currency">CZK</span><span class="currency">HUF</span>
-            <span class="currency">RON</span><span class="currency">SEK</span><span class="currency">DKK</span>
-            <span class="currency">NOK</span><span class="currency">ISK</span><span class="currency">ALL</span>
-            <span class="currency">BAM</span><span class="currency">MDL</span><span class="currency">MKD</span>
-            <span class="currency">RSD</span><span class="currency">UAH</span>
+            <span class="currency">VES</span><span class="currency">USD</span>
           </div>
         </article>
       </div>
@@ -433,19 +428,17 @@
 
   <section id="clients">
     <div class="wrap">
-      <div class="eyebrow">Clients</div>
-      <h2>Choose how you want to connect.</h2>
+      <div class="eyebrow">Clientes</div>
+      <h2>Elige como conectarte.</h2>
 
       <div class="two">
         <article class="card">
-          <div class="label">Mostro Mobile · Android</div>
-          <h3>Add MostroEuropa as a custom node</h3>
+          <div class="label">Mostro Movil · Android</div>
+          <h3>Elige Mostro Venezuela como nodo confiable</h3>
           <div class="steps">
-            <div class="step"><p>Open <strong>Settings</strong> in Mostro Mobile.</p></div>
-            <div class="step"><p>Scroll to the <strong>Mostro</strong> section and tap the current node.</p></div>
-            <div class="step"><p>Choose <strong>Add Custom Node</strong>.</p></div>
-            <div class="step"><p>Paste the MostroEuropa npub shown above. The name field is optional.</p></div>
-            <div class="step"><p>Confirm and select the new custom node.</p></div>
+            <div class="step"><p>Abre <strong>Configuracion</strong> en Mostro Movil.</p></div>
+            <div class="step"><p>Desliza hasta la seccion <strong>Mostro</strong>.</p></div>
+            <div class="step"><p>Elige <strong>Mostro Venezuela</strong>.</p></div>
           </div>
           <div class="actions">
             <a class="btn secondary" href="https://zapstore.dev/apps/network.mostro.app" target="_blank" rel="noopener noreferrer">Zapstore ↗</a>
@@ -455,29 +448,29 @@
 
         <article class="card">
           <div class="label">MostriX · Terminal UI</div>
-          <h3>Change the coordinator from Settings</h3>
+          <h3>Cambia el nodo desde Configuracion</h3>
           <div class="steps">
-            <div class="step"><p>Install and launch <strong>MostriX</strong>.</p></div>
-            <div class="step"><p>Open <strong>Settings</strong> and select <strong>Change Mostro Pubkey</strong>.</p></div>
-            <div class="step"><p>Paste the MostroEuropa npub or hex public key.</p></div>
-            <div class="step"><p>Open <strong>Mostro Info</strong> and verify the coordinator information.</p></div>
+            <div class="step"><p>Instala y ejecuta <strong>MostriX</strong>.</p></div>
+            <div class="step"><p>Abre <strong>Settings</strong> y selecciona <strong>Change Mostro Pubkey</strong>.</p></div>
+            <div class="step"><p>Pega la clave publica de Mostro Venezuela.</p></div>
+            <div class="step"><p>Abre <strong>Mostro Info</strong> y verifica la informacion del nodo.</p></div>
           </div>
           <div class="actions">
             <a class="btn secondary" href="https://github.com/MostroP2P/mostrix" target="_blank" rel="noopener noreferrer">MostriX ↗</a>
-            <a class="btn secondary" href="https://mostro.network/docs-english/mostrix.html" target="_blank" rel="noopener noreferrer">Official guide ↗</a>
+            <a class="btn secondary" href="https://mostro.network/docs-english/mostrix.html" target="_blank" rel="noopener noreferrer">Guia oficial ↗</a>
           </div>
         </article>
       </div>
 
       <article class="card" style="margin-top:18px">
-        <div class="label">mostro-cli · Advanced users</div>
-        <h3>Ready-to-use shell configuration</h3>
-        <pre class="code"><code>export MOSTRO_PUBKEY="npub1mg36x8t42usn32upfxg35ppzfqf2xj76v7w2hf7trqj0ma79jtkqrj3q9m"
-export RELAYS="wss://relay.mostro.network,wss://mostro-p2p.tech,wss://relay.shadowbip.com"
+        <div class="label">mostro-cli · Usuarios avanzados</div>
+        <h3>Configuracion de consola lista para usar</h3>
+        <pre class="code"><code>export MOSTRO_PUBKEY="000009ee1e4b1dc7add19ab30e4ef854d7b562e208b62686fd9002b50b24dabb"
+export RELAYS="wss://relay.mostro.network,wss://mostro-p2p.tech,wss://nos.lol"
 
 mostro-cli listorders</code></pre>
         <div class="notice">
-          On first use, mostro-cli creates a local identity and a 12-word mnemonic. Back it up before relying on the client for active trades.
+          En el primer uso, mostro-cli crea una identidad local y 12 palabras mnemonicas. Anotalas antes de empezar a intercambiar.
         </div>
         <div class="actions">
           <a class="btn secondary" href="https://github.com/MostroP2P/mostro-cli" target="_blank" rel="noopener noreferrer">mostro-cli ↗</a>
@@ -488,24 +481,24 @@ mostro-cli listorders</code></pre>
 
   <section id="coordinator">
     <div class="wrap">
-      <div class="eyebrow">Coordinator</div>
-      <h2>Current operating parameters.</h2>
+      <div class="eyebrow">Coordinador</div>
+      <h2>Parametros operativos actuales.</h2>
 
       <div class="three">
         <article class="card">
-          <div class="label">Fee</div>
-          <h3>0.6%</h3>
-          <p>Configured coordinator fee.</p>
+          <div class="label">Tarifa</div>
+          <h3>0.8%</h3>
+          <p>Tarifa por usar el nodo. Compartida por el comprador y el vendedor a partes iguales.</p>
         </article>
         <article class="card">
-          <div class="label">Order limits</div>
-          <h3>100 — 1,000,000 sats</h3>
-          <p>Minimum and maximum order size.</p>
+          <div class="label">Limites de las ordenes</div>
+          <h3>1,000 — 250,000 sats</h3>
+          <p>Tamano minimo y maximo de las ordenes.</p>
         </article>
         <article class="card">
-          <div class="label">Anti-abuse</div>
-          <h3>Bond enabled</h3>
-          <p>Taker bond enabled according to the coordinator's published configuration.</p>
+          <div class="label">Fianza anti-abuso</div>
+          <h3>Fianza desactivada</h3>
+          <p>Fianza desactivada segun la configuracion publicada por el nodo.</p>
         </article>
       </div>
     </div>
@@ -513,24 +506,24 @@ mostro-cli listorders</code></pre>
 
   <section id="security">
     <div class="wrap">
-      <div class="eyebrow">Security</div>
-      <h2>Understand the flow. Start small.</h2>
+      <div class="eyebrow">Securidad</div>
+      <h2>Entiende el flujo. Comienza con montos pequenos.</h2>
       <div class="three">
         <article class="card">
-          <h3>Verify the npub</h3>
-          <p>Use the coordinator public key. Do not rely on display names alone.</p>
+          <h3>Verifica la clave publica</h3>
+          <p>Siempre verifica la identidad del coordinador por su clave publica, y no solo por el nombre que muestre.</p>
         </article>
         <article class="card">
-          <h3>Keep the trade inside Mostro</h3>
-          <p>Do not move the settlement process outside the protocol while a trade is active.</p>
+          <h3>Manten el intercambio dentro de Mostro</h3>
+          <p>No muevas el proceso de liquidacion fuera del protocolo mientras haya una operacion activa.</p>
         </article>
         <article class="card">
-          <h3>Back up your client identity</h3>
-          <p>Store any mnemonic or recovery phrase safely before using the client for active trades.</p>
+          <h3>Respalda tu identidad</h3>
+          <p>Respalda tu frase mnemonica o de recuperacion antes de empezar a intercambiar.</p>
         </article>
       </div>
       <div class="notice">
-        Never send seed phrases, private keys, Nostr nsec keys or wallet recovery data through support channels.
+        Nunca envies frases semillas, llaves privadas, nsec de Nostr o datos de recuperacion de tu wallet a traves de los canales de soporte. Ningun administrador te pedira estos datos.
       </div>
     </div>
   </section>
@@ -538,44 +531,19 @@ mostro-cli listorders</code></pre>
   <section id="community">
     <div class="wrap">
       <div class="community-box">
-        <div class="eyebrow" style="color:#ffb07b">Community first</div>
-        <h2>MostroEuropa is built by people.</h2>
+        <div class="eyebrow" style="color:#ffb07b">Comunidad</div>
+        <h2>Mostro Venezuela gira alrededor de sus usuarios.</h2>
         <p>
-          We are building a European community around the Mostro protocol. New contributors are welcome — dispute solvers, moderators, country and language contributors, technical contributors and documentation helpers.
+          Estamos construyendo una comunidad de usuarios donde todos aprendemos y nos ayudamos, dando consejos e informacion relevante para llevar intercambios seguros alrededor del protocolo Mostro.
         </p>
         <div class="actions">
-          <a class="btn primary" href="https://t.me/MostroEuropaCommunity" target="_blank" rel="noopener noreferrer">Community & support</a>
-          <a class="btn" href="https://t.me/MostroEuropa" target="_blank" rel="noopener noreferrer">Live P2P offers</a>
+          <a class="btn primary" href="https://t.me/MostroVenezuela" target="_blank" rel="noopener noreferrer">Soporte y Comunidad</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
-    <div class="wrap">
-      <div class="eyebrow">Private contact</div>
-      <h2>Contact MostroEuropa.</h2>
-      <div class="two">
-        <article class="card">
-          <div class="label">Nostr</div>
-          <h3>Nostr DM</h3>
-          <div class="npub">npub1yag9ggwzdrekxput74qq66p88wv8r68r2f3lm3znycqqyh408ufs7htp3e</div>
-          <div class="actions">
-            <a class="btn secondary" href="https://njump.me/npub1yag9ggwzdrekxput74qq66p88wv8r68r2f3lm3znycqqyh408ufs7htp3e" target="_blank" rel="noopener noreferrer">Open profile ↗</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="label">SimpleX</div>
-          <h3>SimpleX Chat</h3>
-          <p>Direct contact without exposing a phone number.</p>
-          <div class="actions">
-            <a class="btn secondary" href="https://smp17.simplex.im/a#w2lbfI-Rbea5dukWc38CVDQEzLryz8q7p2C4NGEViNg" target="_blank" rel="noopener noreferrer">Open SimpleX ↗</a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
+  
 
 </main>
 
